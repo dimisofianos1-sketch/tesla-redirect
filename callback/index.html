@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Watch Auth</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #111; color: #fff; }
+        .card { text-align: center; padding: 32px; }
+        code { background: #333; padding: 8px 16px; border-radius: 8px; display: block; margin: 16px 0; word-break: break-all; font-size: 14px; }
+        a { color: #E82127; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Tesla Watch</h2>
+        <p id="status">Redirecting to app...</p>
+        <code id="code"></code>
+        <p><a id="applink" href="#">Open app manually</a></p>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get('code');
+        const state = params.get('state');
+        if (code) {
+            document.getElementById('code').textContent = code;
+            const appUrl = 'intent://callback?code=' + encodeURIComponent(code) + (state ? '&state=' + encodeURIComponent(state) : '') + '#Intent;scheme=teslawatch;package=com.teslawatch.app;end';
+            document.getElementById('applink').href = appUrl;
+            window.location.href = appUrl;
+        } else {
+            document.getElementById('status').textContent = 'No auth code received.';
+        }
+    </script>
+</body>
+</html>
