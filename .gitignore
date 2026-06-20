@@ -1,0 +1,26 @@
+# Android
+android/.gradle/
+android/local.properties
+android/app/google-services.json
+android/build/
+android/app/build/
+*.keystore
+*.jks
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+scraper/.env
+
+# Firebase credentials — NEVER commit
+*service_account*.json
+firebase_credentials.json
+/tmp/firebase_credentials.json
+
+# OS
+.DS_Store
+Thumbs.db

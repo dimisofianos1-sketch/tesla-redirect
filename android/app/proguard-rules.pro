@@ -1,0 +1,4 @@
+-keep class gr.posokanei4real.app.data.model.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn com.google.firebase.**
