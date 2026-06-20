@@ -1,8 +1,8 @@
 """Uploads scrape results to Firebase Firestore."""
+import json
 import logging
 import os
 from datetime import datetime, timezone
-from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -12,11 +12,17 @@ def _get_db():
     from firebase_admin import credentials, firestore
 
     if not firebase_admin._apps:
+        # Prefer inline JSON (easier for CI/secrets managers — no temp file needed)
+        inline_json = os.environ.get("FIREBASE_SERVICE_ACCOUNT_JSON")
         cred_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
-        if cred_path:
+
+        if inline_json:
+            cred = credentials.Certificate(json.loads(inline_json))
+        elif cred_path:
             cred = credentials.Certificate(cred_path)
         else:
             cred = credentials.ApplicationDefault()
+
         firebase_admin.initialize_app(cred)
     return firestore.client()
 

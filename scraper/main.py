@@ -6,16 +6,21 @@ Runs all supermarket scrapers concurrently and uploads results to Firebase.
 import json
 import logging
 import os
-import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+
+from dotenv import load_dotenv
+
+# Load .env from the scraper/ directory (or the project root as fallback)
+load_dotenv(Path(__file__).parent / ".env")
+load_dotenv(Path(__file__).parent.parent / ".env", override=False)
 
 from scrapers import ALL_SCRAPERS
 from firebase_uploader import upload_results
 from models import ScrapeResult
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=os.environ.get("LOG_LEVEL", "INFO"),
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     datefmt="%Y-%m-%dT%H:%M:%S",
 )

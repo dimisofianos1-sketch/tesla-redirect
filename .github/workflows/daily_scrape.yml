@@ -31,20 +31,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: Write Firebase credentials
-        env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-        run: |
-          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase_credentials.json
-
       - name: Run scraper
         working-directory: scraper
         env:
-          GOOGLE_APPLICATION_CREDENTIALS: /tmp/firebase_credentials.json
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           SCRAPER_WORKERS: "4"
         run: python main.py
-
-      - name: Clean up credentials
-        if: always()
-        run: rm -f /tmp/firebase_credentials.json
