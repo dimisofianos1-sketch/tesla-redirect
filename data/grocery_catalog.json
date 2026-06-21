@@ -1,0 +1,227 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "id": "dairy",
+      "name_el": "Γαλακτοκομικά",
+      "name_en": "Dairy",
+      "icon": "🥛",
+      "items": [
+        { "id": "milk_full_1l", "name_el": "Γάλα Πλήρες 1L", "unit": "τεμ", "barcode_hint": "milk_full_1l" },
+        { "id": "milk_low_1l", "name_el": "Γάλα Ημίπαχο 1L", "unit": "τεμ", "barcode_hint": "milk_low_1l" },
+        { "id": "yogurt_strained_500g", "name_el": "Γιαούρτι Στραγγιστό 2% 500g", "unit": "τεμ", "barcode_hint": "yogurt_strained" },
+        { "id": "yogurt_full_1kg", "name_el": "Γιαούρτι Πλήρες 1kg", "unit": "τεμ", "barcode_hint": "yogurt_full" },
+        { "id": "feta_400g", "name_el": "Φέτα ΠΟΠ 400g", "unit": "τεμ", "barcode_hint": "feta_400g" },
+        { "id": "graviera_200g", "name_el": "Γραβιέρα 200g", "unit": "τεμ", "barcode_hint": "graviera" },
+        { "id": "kasseri_200g", "name_el": "Κασέρι 200g", "unit": "τεμ", "barcode_hint": "kasseri" },
+        { "id": "butter_200g", "name_el": "Βούτυρο 200g", "unit": "τεμ", "barcode_hint": "butter" },
+        { "id": "cream_200ml", "name_el": "Κρέμα Γάλακτος 200ml", "unit": "τεμ", "barcode_hint": "cream" },
+        { "id": "eggs_10pack", "name_el": "Αυγά 10τεμ", "unit": "συσκ", "barcode_hint": "eggs_10" },
+        { "id": "eggs_6pack", "name_el": "Αυγά 6τεμ", "unit": "συσκ", "barcode_hint": "eggs_6" }
+      ]
+    },
+    {
+      "id": "meat",
+      "name_el": "Κρέας & Πουλερικά",
+      "name_en": "Meat & Poultry",
+      "icon": "🥩",
+      "items": [
+        { "id": "chicken_whole_1kg", "name_el": "Κοτόπουλο Ολόκληρο (τιμή/kg)", "unit": "kg", "barcode_hint": "chicken_whole" },
+        { "id": "chicken_breast_1kg", "name_el": "Στήθος Κοτόπουλου (τιμή/kg)", "unit": "kg", "barcode_hint": "chicken_breast" },
+        { "id": "chicken_thigh_1kg", "name_el": "Μπούτι Κοτόπουλου (τιμή/kg)", "unit": "kg", "barcode_hint": "chicken_thigh" },
+        { "id": "pork_chops_1kg", "name_el": "Μπριζόλες Χοιρινές (τιμή/kg)", "unit": "kg", "barcode_hint": "pork_chops" },
+        { "id": "beef_mince_500g", "name_el": "Κιμάς Μοσχαρίσιος 500g", "unit": "τεμ", "barcode_hint": "beef_mince" },
+        { "id": "mixed_mince_500g", "name_el": "Κιμάς Μικτός 500g", "unit": "τεμ", "barcode_hint": "mixed_mince" },
+        { "id": "lamb_chops_1kg", "name_el": "Αρνίσιες Μπριζόλες (τιμή/kg)", "unit": "kg", "barcode_hint": "lamb_chops" },
+        { "id": "sausages_400g", "name_el": "Λουκάνικα 400g", "unit": "τεμ", "barcode_hint": "sausages" }
+      ]
+    },
+    {
+      "id": "fish",
+      "name_el": "Ψάρια & Θαλασσινά",
+      "name_en": "Fish & Seafood",
+      "icon": "🐟",
+      "items": [
+        { "id": "salmon_fresh_1kg", "name_el": "Σολομός Φιλέτο (τιμή/kg)", "unit": "kg", "barcode_hint": "salmon_fresh" },
+        { "id": "tuna_can_185g", "name_el": "Τόνος Κονσέρβα 185g", "unit": "τεμ", "barcode_hint": "tuna_can" },
+        { "id": "sardines_can_100g", "name_el": "Σαρδέλες Κονσέρβα 100g", "unit": "τεμ", "barcode_hint": "sardines_can" },
+        { "id": "shrimp_frozen_500g", "name_el": "Γαρίδες Κατεψυγμένες 500g", "unit": "τεμ", "barcode_hint": "shrimp_frozen" },
+        { "id": "cod_fillet_400g", "name_el": "Φιλέτο Μπακαλιάρου 400g", "unit": "τεμ", "barcode_hint": "cod_fillet" }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name_el": "Λαχανικά",
+      "name_en": "Vegetables",
+      "icon": "🥦",
+      "items": [
+        { "id": "tomatoes_1kg", "name_el": "Ντομάτες (τιμή/kg)", "unit": "kg", "barcode_hint": "tomatoes" },
+        { "id": "potatoes_2kg", "name_el": "Πατάτες 2kg", "unit": "τεμ", "barcode_hint": "potatoes_2kg" },
+        { "id": "onions_1kg", "name_el": "Κρεμμύδια (τιμή/kg)", "unit": "kg", "barcode_hint": "onions" },
+        { "id": "garlic_200g", "name_el": "Σκόρδο 200g", "unit": "τεμ", "barcode_hint": "garlic" },
+        { "id": "lettuce_1pc", "name_el": "Μαρούλι (τεμάχιο)", "unit": "τεμ", "barcode_hint": "lettuce" },
+        { "id": "cucumber_1pc", "name_el": "Αγγούρι (τεμάχιο)", "unit": "τεμ", "barcode_hint": "cucumber" },
+        { "id": "bell_pepper_1kg", "name_el": "Πιπεριές (τιμή/kg)", "unit": "kg", "barcode_hint": "bell_pepper" },
+        { "id": "eggplant_1kg", "name_el": "Μελιτζάνες (τιμή/kg)", "unit": "kg", "barcode_hint": "eggplant" },
+        { "id": "zucchini_1kg", "name_el": "Κολοκυθάκια (τιμή/kg)", "unit": "kg", "barcode_hint": "zucchini" },
+        { "id": "broccoli_500g", "name_el": "Μπρόκολο 500g", "unit": "τεμ", "barcode_hint": "broccoli" },
+        { "id": "spinach_500g", "name_el": "Σπανάκι 500g", "unit": "τεμ", "barcode_hint": "spinach" },
+        { "id": "carrots_1kg", "name_el": "Καρότα 1kg", "unit": "τεμ", "barcode_hint": "carrots" },
+        { "id": "cabbage_1pc", "name_el": "Λάχανο (τεμάχιο)", "unit": "τεμ", "barcode_hint": "cabbage" },
+        { "id": "leek_1pc", "name_el": "Πράσο (τεμάχιο)", "unit": "τεμ", "barcode_hint": "leek" },
+        { "id": "celery_1pc", "name_el": "Σέλινο (τεμάχιο)", "unit": "τεμ", "barcode_hint": "celery" }
+      ]
+    },
+    {
+      "id": "fruits",
+      "name_el": "Φρούτα",
+      "name_en": "Fruits",
+      "icon": "🍎",
+      "items": [
+        { "id": "bananas_1kg", "name_el": "Μπανάνες (τιμή/kg)", "unit": "kg", "barcode_hint": "bananas" },
+        { "id": "apples_1kg", "name_el": "Μήλα (τιμή/kg)", "unit": "kg", "barcode_hint": "apples" },
+        { "id": "oranges_1kg", "name_el": "Πορτοκάλια (τιμή/kg)", "unit": "kg", "barcode_hint": "oranges" },
+        { "id": "lemons_1kg", "name_el": "Λεμόνια (τιμή/kg)", "unit": "kg", "barcode_hint": "lemons" },
+        { "id": "grapes_500g", "name_el": "Σταφύλια (τιμή/kg)", "unit": "kg", "barcode_hint": "grapes" },
+        { "id": "watermelon_1kg", "name_el": "Καρπούζι (τιμή/kg)", "unit": "kg", "barcode_hint": "watermelon" },
+        { "id": "peaches_1kg", "name_el": "Ροδάκινα (τιμή/kg)", "unit": "kg", "barcode_hint": "peaches" },
+        { "id": "kiwi_1kg", "name_el": "Ακτινίδια (τιμή/kg)", "unit": "kg", "barcode_hint": "kiwi" },
+        { "id": "strawberries_500g", "name_el": "Φράουλες 500g", "unit": "τεμ", "barcode_hint": "strawberries" }
+      ]
+    },
+    {
+      "id": "pantry",
+      "name_el": "Βασικά Τρόφιμα",
+      "name_en": "Pantry Staples",
+      "icon": "🫙",
+      "items": [
+        { "id": "olive_oil_750ml", "name_el": "Ελαιόλαδο 750ml", "unit": "τεμ", "barcode_hint": "olive_oil_750" },
+        { "id": "olive_oil_1l", "name_el": "Ελαιόλαδο 1L", "unit": "τεμ", "barcode_hint": "olive_oil_1l" },
+        { "id": "sunflower_oil_1l", "name_el": "Ηλιέλαιο 1L", "unit": "τεμ", "barcode_hint": "sunflower_oil" },
+        { "id": "pasta_spaghetti_500g", "name_el": "Σπαγγέτι 500g", "unit": "τεμ", "barcode_hint": "spaghetti" },
+        { "id": "pasta_penne_500g", "name_el": "Πέννες 500g", "unit": "τεμ", "barcode_hint": "penne" },
+        { "id": "pasta_macaroni_500g", "name_el": "Μακαρόνια Νο7 500g", "unit": "τεμ", "barcode_hint": "macaroni" },
+        { "id": "rice_1kg", "name_el": "Ρύζι Γλασέ 1kg", "unit": "τεμ", "barcode_hint": "rice_1kg" },
+        { "id": "flour_1kg", "name_el": "Αλεύρι Για Όλες Χρήσεις 1kg", "unit": "τεμ", "barcode_hint": "flour_1kg" },
+        { "id": "sugar_1kg", "name_el": "Ζάχαρη Λευκή 1kg", "unit": "τεμ", "barcode_hint": "sugar_1kg" },
+        { "id": "salt_500g", "name_el": "Αλάτι 500g", "unit": "τεμ", "barcode_hint": "salt" },
+        { "id": "tomato_can_400g", "name_el": "Κονσέρβα Ντομάτα 400g", "unit": "τεμ", "barcode_hint": "tomato_can" },
+        { "id": "lentils_500g", "name_el": "Φακές 500g", "unit": "τεμ", "barcode_hint": "lentils" },
+        { "id": "chickpeas_500g", "name_el": "Ρεβίθια 500g", "unit": "τεμ", "barcode_hint": "chickpeas" },
+        { "id": "beans_dry_500g", "name_el": "Φασόλια Ξερά 500g", "unit": "τεμ", "barcode_hint": "beans_dry" },
+        { "id": "olives_jar_200g", "name_el": "Ελιές Καλαμών 200g", "unit": "τεμ", "barcode_hint": "olives" },
+        { "id": "honey_450g", "name_el": "Μέλι Θυμαρίσιο 450g", "unit": "τεμ", "barcode_hint": "honey" },
+        { "id": "jam_370g", "name_el": "Μαρμελάδα Φράουλα 370g", "unit": "τεμ", "barcode_hint": "jam" },
+        { "id": "tomato_paste_200g", "name_el": "Πελτές Ντομάτας 200g", "unit": "τεμ", "barcode_hint": "tomato_paste" },
+        { "id": "vinegar_500ml", "name_el": "Ξίδι 500ml", "unit": "τεμ", "barcode_hint": "vinegar" },
+        { "id": "mustard_200g", "name_el": "Μουστάρδα 200g", "unit": "τεμ", "barcode_hint": "mustard" },
+        { "id": "ketchup_560g", "name_el": "Κέτσαπ 560g", "unit": "τεμ", "barcode_hint": "ketchup" },
+        { "id": "mayo_400g", "name_el": "Μαγιονέζα 400g", "unit": "τεμ", "barcode_hint": "mayo" }
+      ]
+    },
+    {
+      "id": "bakery",
+      "name_el": "Αρτοποιία & Δημητριακά",
+      "name_en": "Bakery & Cereals",
+      "icon": "🍞",
+      "items": [
+        { "id": "bread_white_700g", "name_el": "Ψωμί Λευκό 700g", "unit": "τεμ", "barcode_hint": "bread_white" },
+        { "id": "bread_whole_700g", "name_el": "Ψωμί Ολικής 700g", "unit": "τεμ", "barcode_hint": "bread_whole" },
+        { "id": "toast_bread_500g", "name_el": "Ψωμί Τοστ 500g", "unit": "τεμ", "barcode_hint": "toast_bread" },
+        { "id": "rusks_paximadia_500g", "name_el": "Παξιμάδια 500g", "unit": "τεμ", "barcode_hint": "paximadia" },
+        { "id": "cereals_corn_375g", "name_el": "Δημητριακά Κορνφλέικς 375g", "unit": "τεμ", "barcode_hint": "cornflakes" },
+        { "id": "oats_500g", "name_el": "Βρώμη 500g", "unit": "τεμ", "barcode_hint": "oats" },
+        { "id": "crackers_200g", "name_el": "Κράκερς 200g", "unit": "τεμ", "barcode_hint": "crackers" }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name_el": "Ποτά & Αναψυκτικά",
+      "name_en": "Beverages",
+      "icon": "🥤",
+      "items": [
+        { "id": "water_1_5l", "name_el": "Νερό 1.5L", "unit": "τεμ", "barcode_hint": "water_1_5l" },
+        { "id": "water_6x1_5l", "name_el": "Νερό 6x1.5L", "unit": "συσκ", "barcode_hint": "water_6pack" },
+        { "id": "orange_juice_1l", "name_el": "Χυμός Πορτοκάλι 1L", "unit": "τεμ", "barcode_hint": "oj_1l" },
+        { "id": "coffee_ground_250g", "name_el": "Καφές Φίλτρου 250g", "unit": "τεμ", "barcode_hint": "coffee_ground" },
+        { "id": "coffee_instant_200g", "name_el": "Καφές Στιγμιαίος 200g", "unit": "τεμ", "barcode_hint": "coffee_instant" },
+        { "id": "greek_coffee_200g", "name_el": "Ελληνικός Καφές 200g", "unit": "τεμ", "barcode_hint": "greek_coffee" },
+        { "id": "tea_20bags", "name_el": "Τσάι 20 Φακελάκια", "unit": "τεμ", "barcode_hint": "tea_bags" },
+        { "id": "cola_1_5l", "name_el": "Κόλα 1.5L", "unit": "τεμ", "barcode_hint": "cola_1_5l" },
+        { "id": "wine_red_750ml", "name_el": "Κρασί Ερυθρό 750ml", "unit": "τεμ", "barcode_hint": "wine_red" },
+        { "id": "beer_500ml", "name_el": "Μπύρα 500ml", "unit": "τεμ", "barcode_hint": "beer_500" }
+      ]
+    },
+    {
+      "id": "frozen",
+      "name_el": "Κατεψυγμένα",
+      "name_en": "Frozen",
+      "icon": "🧊",
+      "items": [
+        { "id": "frozen_peas_450g", "name_el": "Αρακάς Κατεψυγμένος 450g", "unit": "τεμ", "barcode_hint": "frozen_peas" },
+        { "id": "frozen_spinach_450g", "name_el": "Σπανάκι Κατεψυγμένο 450g", "unit": "τεμ", "barcode_hint": "frozen_spinach" },
+        { "id": "frozen_mixed_veg_450g", "name_el": "Μίγμα Λαχανικών 450g", "unit": "τεμ", "barcode_hint": "frozen_veg_mix" },
+        { "id": "frozen_chips_750g", "name_el": "Πατάτες Τηγανητές Κατεψυγμένες 750g", "unit": "τεμ", "barcode_hint": "frozen_chips" },
+        { "id": "ice_cream_500ml", "name_el": "Παγωτό Βανίλια 500ml", "unit": "τεμ", "barcode_hint": "ice_cream_vanilla" },
+        { "id": "frozen_pizza_400g", "name_el": "Κατεψυγμένη Πίτσα 400g", "unit": "τεμ", "barcode_hint": "frozen_pizza" }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name_el": "Καθαριστικά",
+      "name_en": "Cleaning",
+      "icon": "🧹",
+      "items": [
+        { "id": "laundry_powder_2kg", "name_el": "Σκόνη Πλυντηρίου 2kg", "unit": "τεμ", "barcode_hint": "laundry_powder" },
+        { "id": "laundry_liquid_1_5l", "name_el": "Υγρό Πλυντηρίου 1.5L", "unit": "τεμ", "barcode_hint": "laundry_liquid" },
+        { "id": "dish_soap_500ml", "name_el": "Υγρό Πιάτων 500ml", "unit": "τεμ", "barcode_hint": "dish_soap" },
+        { "id": "fabric_softener_1l", "name_el": "Μαλακτικό Ρούχων 1L", "unit": "τεμ", "barcode_hint": "fabric_softener" },
+        { "id": "all_purpose_cleaner_500ml", "name_el": "Πολυκαθαριστικό 500ml", "unit": "τεμ", "barcode_hint": "all_purpose_cleaner" },
+        { "id": "bleach_1l", "name_el": "Χλωρίνη 1L", "unit": "τεμ", "barcode_hint": "bleach" },
+        { "id": "trash_bags_30l", "name_el": "Σακούλες Σκουπιδιών 30L (20τεμ)", "unit": "συσκ", "barcode_hint": "trash_bags" },
+        { "id": "dishwasher_tablets_30pc", "name_el": "Ταμπλέτες Πλυντηρίου 30τεμ", "unit": "συσκ", "barcode_hint": "dishwasher_tabs" }
+      ]
+    },
+    {
+      "id": "personal_care",
+      "name_el": "Προσωπική Υγιεινή",
+      "name_en": "Personal Care",
+      "icon": "🧴",
+      "items": [
+        { "id": "shampoo_400ml", "name_el": "Σαμπουάν 400ml", "unit": "τεμ", "barcode_hint": "shampoo" },
+        { "id": "shower_gel_400ml", "name_el": "Αφρόλουτρο 400ml", "unit": "τεμ", "barcode_hint": "shower_gel" },
+        { "id": "soap_bar_100g", "name_el": "Σαπούνι Μπάρα 100g", "unit": "τεμ", "barcode_hint": "soap_bar" },
+        { "id": "toothpaste_75ml", "name_el": "Οδοντόπαστα 75ml", "unit": "τεμ", "barcode_hint": "toothpaste" },
+        { "id": "toilet_paper_8roll", "name_el": "Χαρτί Τουαλέτας 8τεμ", "unit": "συσκ", "barcode_hint": "toilet_paper" },
+        { "id": "kitchen_towels_2roll", "name_el": "Χαρτί Κουζίνας 2τεμ", "unit": "συσκ", "barcode_hint": "kitchen_towels" },
+        { "id": "deodorant_150ml", "name_el": "Αποσμητικό 150ml", "unit": "τεμ", "barcode_hint": "deodorant" },
+        { "id": "diapers_50pc", "name_el": "Πάνες Μωρού Νο4 50τεμ", "unit": "συσκ", "barcode_hint": "diapers" },
+        { "id": "wet_wipes_72pc", "name_el": "Μωρομάντηλα 72τεμ", "unit": "συσκ", "barcode_hint": "wet_wipes" }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name_el": "Σνακ & Γλυκά",
+      "name_en": "Snacks & Sweets",
+      "icon": "🍫",
+      "items": [
+        { "id": "chocolate_100g", "name_el": "Σοκολάτα Γάλακτος 100g", "unit": "τεμ", "barcode_hint": "chocolate_milk" },
+        { "id": "chips_200g", "name_el": "Πατατάκια 200g", "unit": "τεμ", "barcode_hint": "chips" },
+        { "id": "cookies_400g", "name_el": "Μπισκότα 400g", "unit": "τεμ", "barcode_hint": "cookies" },
+        { "id": "tahini_300g", "name_el": "Ταχίνι 300g", "unit": "τεμ", "barcode_hint": "tahini" },
+        { "id": "halva_400g", "name_el": "Χαλβάς 400g", "unit": "τεμ", "barcode_hint": "halva" },
+        { "id": "nuts_mix_200g", "name_el": "Μείγμα Ξηρών Καρπών 200g", "unit": "τεμ", "barcode_hint": "nuts_mix" }
+      ]
+    }
+  ],
+  "supermarkets": [
+    { "id": "ab", "name": "AB Βασιλόπουλος", "url": "https://www.ab.gr", "logo": "ab_logo" },
+    { "id": "sklavenitis", "name": "Σκλαβενίτης", "url": "https://www.sklavenitis.gr", "logo": "sklavenitis_logo" },
+    { "id": "lidl", "name": "Lidl", "url": "https://www.lidl.gr", "logo": "lidl_logo" },
+    { "id": "masoutis", "name": "Μασούτης", "url": "https://www.masoutis.gr", "logo": "masoutis_logo" },
+    { "id": "mymarket", "name": "My Market", "url": "https://www.mymarket.gr", "logo": "mymarket_logo" },
+    { "id": "kritikos", "name": "Κρητικός", "url": "https://www.kritikos.gr", "logo": "kritikos_logo" },
+    { "id": "bazaar", "name": "Bazaar", "url": "https://www.bazaar.com.gr", "logo": "bazaar_logo" },
+    { "id": "chalkiadakis", "name": "Χαλκιαδάκης", "url": "https://www.chalkiadakis.gr", "logo": "chalkiadakis_logo" }
+  ]
+}
